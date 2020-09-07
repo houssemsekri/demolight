@@ -1,0 +1,28 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 57%;
+  @media (min-width: $bp-l) {
+    font-size: 68%;
+  }
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Tajawal", sans-serif;
+  font-weight: normal;
+  line-height: 1.7;
+  color: var(--color-black);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
